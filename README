@@ -1,0 +1,12 @@
+How to Run:
+
+  1. install ImageMagick
+  2. change into this directory and run "bundle install"
+  3. run "ruby main.rb"
+  4. Scan result.png that generated in step 2 using your QR Code Reader App 
+
+
+
+Attention: 
+
+If on your PC, there is no chinese charset file "/usr/share/fonts/wenquanyi/wqy-zenhei/wqy-zenhei.ttc", pls run shell command "fc-list :lang=zh-cn" to check how many kinds of Chinese fonts that availabe on your OS. Then replace code snippet "/usr/share/fonts/wenquanyi/wqy-zenhei/wqy-zenhei.ttc" in line 9 in main.rb with yours correspondingly.
